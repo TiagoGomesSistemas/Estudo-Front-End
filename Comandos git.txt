@@ -1,0 +1,12 @@
+git init (inicia um repositório git)
+git add nome.arquivo (adiciona arquivo)
+git commit -m "comentário" (commita)
+git init --bare (inicia repositório remoto)
+git clone caminho/do/repositório/remoto nome
+git remote add nome caminho/do/repositorio/remoto
+git push local master (envia / local = endereço do repositório remoto / master = pasta local)
+git pull local master (recebe) 
+git branch titulo (cria nova branch chamada titulo)
+git checkout titulo (muda para trabalhar na branch titulo)
+git merge nome-da-branch (junta os trabalhos)
+git rebase nome-da-branch (junta os trabalhos mas com históricos de comits)
